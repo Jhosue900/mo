@@ -1,0 +1,279 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.image-mo {
+    max-width: 100%;
+    height: 40%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.text {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #36454F;
+    color: #FFFFFF;
+}
+
+.youtube, .spotify, .x {
+    text-decoration-line: none;
+    width: 31%;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-position 0.5s ease, color 0.5s ease;
+}
+
+.youtube {
+    background: linear-gradient(to right, #FF0000 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #FF0000;
+}
+
+.youtube:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.spotify {
+    
+    background: linear-gradient(to right, #14c44c  50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #14c44c ;
+}
+
+.spotify:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.x {
+    background: linear-gradient(to right, #000000 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #000000;
+}
+
+.x:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.instagram {
+    text-decoration-line: none;
+    width: 31%;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #833ab4 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #833ab4;
+    transition: background-position 0.5s ease, color 0.5s ease;
+}
+
+.instagram:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.discord {
+    text-decoration-line: none;
+    width: 31%;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right, #7289da 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #7289da;
+    transition: background-position 0.5s ease, color 0.5s ease;
+}
+
+.discord:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.symmetry {
+    text-decoration-line: none;
+    width: 31%;
+    height: 60px;
+    border-radius: 7px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to right,  #04141c   50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color:  #04141c  ;
+    transition: background-position 0.5s ease, color 0.5s ease;
+}
+
+.symmetry:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
+}
+
+.icon {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    border-radius: 100%;
+}
+
+.from {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    width: 31%;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 7px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.card-text {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form-checkbox {
+    margin: 0;
+    cursor: pointer;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #CC0000;
+}
+
+
